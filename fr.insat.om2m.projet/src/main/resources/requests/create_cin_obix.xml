@@ -1,8 +1,0 @@
-<m2m:cin xmlns:m2m = "http://www.onem2m.org/xml/protocols" >
-	<cnf>application/obix:0</cnf>
-	<con>
-		<obj>
-			<int val=23 name="Value"/>
-		</obj>
-	</con>
- </m2m:cin>
