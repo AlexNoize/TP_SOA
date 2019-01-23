@@ -8,10 +8,10 @@ Launch your instances of IN-CSE and MN-CSE at localhost on port 8080.
 
 ### 2 - OM2M Resource tree initialization
 
-1 - Open the OM2M_Java_App folder in Eclipse RCP
-2 - Open folder fr.insat.om2m.project/src/main/java/fr/insat/om2m/tp2/test
-3 - Right click on Main.java
-4 - Run as Java Application
+- 1 - Open the OM2M_Java_App folder in Eclipse RCP
+- 2 - Open folder fr.insat.om2m.project/src/main/java/fr/insat/om2m/tp2/test
+- 3 - Right click on Main.java
+- 4 - Run as Java Application
 
 ### 3 - Launch REST API
 
@@ -27,5 +27,5 @@ Launch your instances of IN-CSE and MN-CSE at localhost on port 8080.
 ### 5 - Use the user interface
 
 1 - Open your web browser
-2 - Connect to http://localhost:1880/ui
+2 - Connect to http://localhost:1880/ui/
 3 - Enjoy!
