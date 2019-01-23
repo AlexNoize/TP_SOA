@@ -103,13 +103,17 @@ public class Main {
 			/*******************************************************************************************************************************
 			// Update
 			********************************************************************************************************************************/
-			// Creation Presence
-			response=client.create("http://127.0.0.1:8080/~/mn-cse/mn-name/AE_Room1/Luminosity", RequestLoader.getRequestFromFile("create_cin_float.xml"), "admin:admin", "ty=4");
+			// Initialization Presence
+			response=client.create("http://127.0.0.1:8080/~/mn-cse/mn-name/AE_Room1/Presence", RequestLoader.getRequestFromFile("initialization_presence.xml"), "admin:admin", "ty=4");
 			System.out.println(response.getRepresentation());
 			
+			// Initialization Temperature
+			response=client.create("http://127.0.0.1:8080/~/mn-cse/mn-name/AE_Room1/Temperature", RequestLoader.getRequestFromFile("initialization_temperature.xml"), "admin:admin", "ty=4");
+			System.out.println(response.getRepresentation());
 			
-			
-			
+			// Initialization Temperature
+			response=client.create("http://127.0.0.1:8080/~/mn-cse/mn-name/AE_Room1/Luminosity", RequestLoader.getRequestFromFile("initialization_luminosity.xml"), "admin:admin", "ty=4");
+			System.out.println(response.getRepresentation());
 			
 			/*// Creation Salle 1
 			AE ae_salle101 = new AE();

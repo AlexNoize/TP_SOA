@@ -1,0 +1,4 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols">
+    <cnf>boolean</cnf>
+    <con>false</con>
+</m2m:cin>

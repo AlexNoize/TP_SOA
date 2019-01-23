@@ -52,7 +52,7 @@ public class MyResource {
     @Path("luminosity")
     @Produces(MediaType.APPLICATION_JSON)
     public String getLuminosity() throws IOException{
-    	
+    	    	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Luminosity/la";
 		
 		URL obj = new URL(url);
@@ -99,7 +99,7 @@ public class MyResource {
     
     @POST
     @Path("lamp/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setLamp(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Lamp";
@@ -248,7 +248,7 @@ public class MyResource {
     
     @POST
     @Path("temperature/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setTemperature(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Temperature";
@@ -299,7 +299,7 @@ public class MyResource {
       
     @POST
     @Path("luminosity/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setLuminosity(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Luminosity";
@@ -398,7 +398,7 @@ public class MyResource {
     
     @POST
     @Path("heater/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setheater(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Heater";
@@ -497,7 +497,7 @@ public class MyResource {
     
     @POST
     @Path("window/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setWindow(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Window";
@@ -596,7 +596,7 @@ public class MyResource {
     
     @POST
     @Path("presence/{state}")
-    @Consumes(MediaType.TEXT_XML)
+    @Consumes(MediaType.WILDCARD)
     public void setPresence(@PathParam("state") String state) throws Exception {
     	
     	String url = "http://localhost:8080/~/mn-cse/mn-name/AE_Room1/Presence";
