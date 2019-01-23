@@ -27,5 +27,5 @@ Launch your instances of IN-CSE and MN-CSE at localhost on port 8080.
 ### 5 - Use the user interface
 
 1 - Open your web browser
-2 - Connect to http://localhost:1880/ui/
+2 - Connect to http://localhost:1880/ui
 3 - Enjoy!
